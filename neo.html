@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo -Neumorph</title>
+
+  <style>
+      @import url('https:/fonts.googleapis.com/css?family=poppins:400,500,600,700,800,900&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #eaeaea;;
+      }
+      h2 {
+        font-size: 10em;
+        color: #eaeaea;
+
+        text-shadow: 6px 6px 12px #00000014, -6px -6px 12px #ffffff;
+
+      }
+
+      .box1 {
+        position: absolute;
+        top: 50px;
+        right: 300px;
+        width: 200px;
+        height: 200px;
+        background: #eaeaea;
+        border-radius: 50%;
+        box-shadow: 6px 6px 12px #00000014, -6px -6px 12px #ffffff;
+      }
+
+      .box2 {
+        position: absolute;
+        bottom: 50px;
+        right: 350px;
+        width: 200px;
+        height: 200px;
+        background: #eaeaea;
+        box-shadow: 6px 6px 12px #00000014, -6px -6px 12px #ffffff;
+      }
+
+      .box3 {
+        position: absolute;
+        top: 30px;
+        left: 300px;
+        width: 200px;
+        height: 200px;
+        background: #eaeaea;
+        border-radius: 50%;
+        box-shadow: 6px 6px 12px #00000014, -6px -6px 12px #ffffff;
+      }
+
+      .box3:before {
+        content: '';
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        bottom: 50px;
+        left: 50px;
+        background: #eaeaea;
+        border-radius: 50%;
+        box-shadow: inset 6px 6px 12px #00000014, inset -6px -6px 12px #ffffff;
+
+        }
+
+        .box4 {
+        position: absolute;
+        bottom: 30px;
+        left: 350px;
+        width: 200px;
+        height: 200px;
+        background: #eaeaea;
+        border-radius: 30%;
+        box-shadow: 6px 6px 12px #00000014, -6px -6px 12px #ffffff;
+      }
+
+      .box4:before {
+        content: '';
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        bottom: 50px;
+        left: 50px;
+        background: #eaeaea;
+        border-radius: 20%;
+        box-shadow: inset 6px 6px 12px #00000014, inset -6px -6px 12px #ffffff;
+
+        }
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <section>
+    
+    <h2>Neumorphism</h2>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+
+  </section>
+  
+</body>
+</html>
